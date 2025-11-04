@@ -17,7 +17,7 @@ export function API_สำหรับแสดงรายการหน้า
   const response = http.get(url, params);
 
   // log response body ตามคำขอ
-  console.log('Response body:', response.body);
+  //console.log('Response body:', response.body);
 
   // คืนค่า response ตามรูปแบบ
   return response;
