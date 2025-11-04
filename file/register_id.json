@@ -1,0 +1,212 @@
+{
+    "status": "success",
+    "status_code": "200",
+    "title": "get list register",
+    "message": "ดึงข้อมูลสำเร็จ",
+    "result": [
+        {
+            "one_id": "6901b97a88dd390012d6c5f3",
+            "register_id": "69087cbdb78ead0011111fd8"
+        },
+        {
+            "one_id": "6901be7bd753dd0011e0ca12",
+            "register_id": "69087d67c99a790012004dd8"
+        },
+        {
+            "one_id": "69087e60a9998e00126c3a4a",
+            "register_id": "69087e75a9998e00126c3a4d"
+        },
+        {
+            "one_id": "6901be7bd753dd0011e0ca12",
+            "register_id": "690972f08f91d10012638ee6"
+        },
+        {
+            "one_id": "6901be7bd753dd0011e0ca12",
+            "register_id": "690972f1aadf8b00126b39d1"
+        },
+        {
+            "one_id": "6901be7bd753dd0011e0ca12",
+            "register_id": "690972f28f91d10012638ef4"
+        },
+        {
+            "one_id": "6901be7bd753dd0011e0ca12",
+            "register_id": "690972f37e8eec0012d55e55"
+        },
+        {
+            "one_id": "6901be7bd753dd0011e0ca12",
+            "register_id": "6909732e5edc8e00126d835a"
+        },
+        {
+            "one_id": "6901be7bd753dd0011e0ca12",
+            "register_id": "6909732f7e8eec0012d55e63"
+        },
+        {
+            "one_id": "6901be7bd753dd0011e0ca12",
+            "register_id": "6909733000820000124b8709"
+        },
+        {
+            "one_id": "6901be7bd753dd0011e0ca12",
+            "register_id": "690973735fff7d00122ddaf3"
+        },
+        {
+            "one_id": "690973cd3ddc640012a0be3a",
+            "register_id": "690973cd3ddc640012a0be3d"
+        },
+        {
+            "one_id": "690974f700820000124b8713",
+            "register_id": "690974f800820000124b8716"
+        },
+        {
+            "one_id": "69097502495cbb00126b0360",
+            "register_id": "69097503495cbb00126b0363"
+        },
+        {
+            "one_id": "69097a79926a9b001208ceb4",
+            "register_id": "69097a7a926a9b001208ceb7"
+        },
+        {
+            "one_id": "6901be7bd753dd0011e0ca12",
+            "register_id": "69097a9ece5de700126e3e77"
+        },
+        {
+            "one_id": "6901be7bd753dd0011e0ca12",
+            "register_id": "69097aa9aadf8b00126b3a1e"
+        },
+        {
+            "one_id": "69097b64495cbb00126b03aa",
+            "register_id": "69097b65495cbb00126b03ad"
+        },
+        {
+            "one_id": "69097cbb5fff7d00122ddb2f",
+            "register_id": "69097cbc5fff7d00122ddb32"
+        },
+        {
+            "one_id": "69097cbb8f91d10012638f5d",
+            "register_id": "69097cbc8f91d10012638f60"
+        },
+        {
+            "one_id": "69097cbb568306001296b96f",
+            "register_id": "69097cbc568306001296b972"
+        },
+        {
+            "one_id": "69097cbb355ec20012a82629",
+            "register_id": "69097cbc355ec20012a8262c"
+        },
+        {
+            "one_id": "69097cbb7e8eec0012d55eb2",
+            "register_id": "69097cbc7e8eec0012d55eb5"
+        },
+        {
+            "one_id": "69097cbb926a9b001208ced1",
+            "register_id": "69097cbd926a9b001208ced4"
+        },
+        {
+            "one_id": "69097cbca5aa010012671451",
+            "register_id": "69097cbda5aa01001267145c"
+        },
+        {
+            "one_id": "69097cbba5aa010012671449",
+            "register_id": "69097cbda5aa010012671461"
+        },
+        {
+            "one_id": "69097cbca5aa010012671459",
+            "register_id": "69097cbda5aa01001267146e"
+        },
+        {
+            "one_id": "69097cbc00820000124b874f",
+            "register_id": "69097cbd00820000124b8752"
+        },
+        {
+            "one_id": "69097e28aadf8b00126b3a3a",
+            "register_id": "69097e29aadf8b00126b3a3d"
+        },
+        {
+            "one_id": "6901be7bd753dd0011e0ca12",
+            "register_id": "6909821b5fff7d00122ddb5b"
+        },
+        {
+            "one_id": "6901be7bd753dd0011e0ca12",
+            "register_id": "69098237ce5de700126e3ebf"
+        },
+        {
+            "one_id": "6901be7bd753dd0011e0ca12",
+            "register_id": "69098239df89160012746b96"
+        },
+        {
+            "one_id": "6901be7bd753dd0011e0ca12",
+            "register_id": "6909823ab9fc120012360120"
+        },
+        {
+            "one_id": "6901be7bd753dd0011e0ca12",
+            "register_id": "69098269b9fc12001236012e"
+        },
+        {
+            "one_id": "6901be7bd753dd0011e0ca12",
+            "register_id": "6909826e8f91d10012638f7e"
+        },
+        {
+            "one_id": "6901be7bd753dd0011e0ca12",
+            "register_id": "6909827600820000124b877d"
+        },
+        {
+            "one_id": "690982f07e8eec0012d55eda",
+            "register_id": "690982f07e8eec0012d55edd"
+        },
+        {
+            "one_id": "6901be7bd753dd0011e0ca12",
+            "register_id": "690984096028e500121b421b"
+        },
+        {
+            "one_id": "6901be7bd753dd0011e0ca12",
+            "register_id": "6909840b6028e500121b4229"
+        },
+        {
+            "one_id": "6901be7bd753dd0011e0ca12",
+            "register_id": "6909840cd3f74f0012c8c8c7"
+        },
+        {
+            "one_id": "6901be7bd753dd0011e0ca12",
+            "register_id": "6909840de0b011001244fe79"
+        },
+        {
+            "one_id": "6901be7bd753dd0011e0ca12",
+            "register_id": "690989aad0a9f400130a7c8b"
+        },
+        {
+            "one_id": "6901be7bd753dd0011e0ca12",
+            "register_id": "69098d9f6028e500121b4237"
+        },
+        {
+            "one_id": "6901be7bd753dd0011e0ca12",
+            "register_id": "69098dc065ed2600121b8d1b"
+        },
+        {
+            "one_id": "69098ff7d0a9f400130a7cb0",
+            "register_id": "69098ff8d0a9f400130a7cb3"
+        },
+        {
+            "one_id": "6901be7bd753dd0011e0ca12",
+            "register_id": "69099f2386d0b40012123eb3"
+        },
+        {
+            "one_id": "6901be7bd753dd0011e0ca12",
+            "register_id": "69099f24160bb60012cdda58"
+        },
+        {
+            "one_id": "6901be7bd753dd0011e0ca12",
+            "register_id": "69099f259459df00120c0839"
+        },
+        {
+            "one_id": "69099f6e2c25d00012f95e99",
+            "register_id": "69099f6f2c25d00012f95e9c"
+        },
+        {
+            "one_id": "6901be7bd753dd0011e0ca12",
+            "register_id": "69099f782c25d00012f95eae"
+        },
+        {
+            "one_id": "6901be7bd753dd0011e0ca12",
+            "register_id": "69099f9e2c25d00012f95ebc"
+        }
+    ]
+}

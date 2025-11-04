@@ -3,16 +3,40 @@ import { sleep } from 'k6';
 import { error_check } from '../check/check.js';
 import { scenario } from 'k6/execution';
 
-import { ran } from '../api/script.js';
-import { callback_scb } from '../api/getJson.js';
-import { htmlReport } from 'https://raw.githubusercontent.com/benc-uk/k6-reporter/main/dist/bundle.js';
+import { API_สำหรับแสดงรายการหน้าลงทะเบียนรอรับยา } from '../api/API_สำหรับแสดงรายการหน้าลงทะเบียนรอรับยา.js';
+import { API_สำหรับแสดงรายการหน้ารอรับยา } from '../api/API_สำหรับแสดงรายการหน้ารอรับยา.js';
+import { API_สำหรับลงทะเบียนรอรับยาในหน้าลงทะเบียนรอรับยา } from '../api/API_สำหรับลงทะเบียนรอรับยาในหน้าลงทะเบียนรอรับยา.js';
+import { API_สำหรับการลงทะเบียนรอรับยาเพื่อให้โรงพยาบาลใช้ในการส่งข้อมูลผ่านAPI } from '../api/API_สำหรับการลงทะเบียนรอรับยาเพื่อให้โรงพยาบาลใช้ในการส่งข้อมูลผ่านAPI.js';
+import { API_สำหรับยืนยันข้อมูลที่ได้รับมาจากAPI_vhv_transport_center_register_formDrug } from '../api/API_สำหรับยืนยันข้อมูลที่ได้รับมาจากAPI_vhv_transport_center_register_formDrug.js';
+import { API_สำหรับยืนยันข้อมูลออเดอร์บริการขนส่งrider } from '../api/API_สำหรับยืนยันข้อมูลออเดอร์บริการขนส่งrider.js';
+import { API_สำหรับยืนยันข้อมูลออเดอร์บริการขนส่งflash } from '../api/API_สำหรับยืนยันข้อมูลออเดอร์บริการขนส่งflash.js';
+import { API_สำหรับยืนยันข้อมูลออเดอร์บริการขนส่งไปรษณีย์ไทย } from '../api/API_สำหรับยืนยันข้อมูลออเดอร์บริการขนส่งไปรษณีย์ไทย.js';
+import { API_สำหรับยืนยันข้อมูลออเดอร์บริการขนส่งiship } from '../api/API_สำหรับยืนยันข้อมูลออเดอร์บริการขนส่งiship.js';
+import { API_สำหรับแสดงรายการหน้ารายการจัดส่งยา } from '../api/API_สำหรับแสดงรายการหน้ารายการจัดส่งยา.js';
+import { API_สำหรับการลงทะเบียนรอรับยาเพื่อรับข้อมูลลงทะเบียนผ่านระบบBMSHosxp } from '../api/API_สำหรับการลงทะเบียนรอรับยาเพื่อรับข้อมูลลงทะเบียนผ่านระบบBMSHosxp.js';
+import { API_สำหรับติดตามสถานะการจัดส่งยา } from '../api/API_สำหรับติดตามสถานะการจัดส่งยา.js';
+import { API_สำหรับยกเลิกการลงทะเบียนรอรับยา } from '../api/API_สำหรับยกเลิกการลงทะเบียนรอรับยา.js';
 
 
 //============================================================================
 
 export default function () {    //เรียกใช้ API ใน export default function
-  response = ran()
-  //response = callback_scb(scenario)
+  //======================= Portal =================================
+  //response = API_สำหรับแสดงรายการหน้าลงทะเบียนรอรับยา()
+  //response = API_สำหรับแสดงรายการหน้ารอรับยา()
+  //response = API_สำหรับลงทะเบียนรอรับยาในหน้าลงทะเบียนรอรับยา()
+  //response = API_สำหรับการลงทะเบียนรอรับยาเพื่อให้โรงพยาบาลใช้ในการส่งข้อมูลผ่านAPI(cid)
+  //response = API_สำหรับยืนยันข้อมูลที่ได้รับมาจากAPI_vhv_transport_center_register_formDrug(scenario, cid)
+  //response = API_สำหรับยืนยันข้อมูลออเดอร์บริการขนส่งrider(scenario)
+  //response = API_สำหรับยืนยันข้อมูลออเดอร์บริการขนส่งflash(scenario)
+  //response = API_สำหรับยืนยันข้อมูลออเดอร์บริการขนส่งไปรษณีย์ไทย(scenario)
+  //response = API_สำหรับยืนยันข้อมูลออเดอร์บริการขนส่งiship(scenario)
+
+  //============================== HIS =========================
+  //response = API_สำหรับแสดงรายการหน้ารายการจัดส่งยา()
+  //response = API_สำหรับการลงทะเบียนรอรับยาเพื่อรับข้อมูลลงทะเบียนผ่านระบบBMSHosxp(cid)
+  //response = API_สำหรับติดตามสถานะการจัดส่งยา()
+  //response = API_สำหรับยกเลิกการลงทะเบียนรอรับยา(scenario)
 
 
   error_check(response);
@@ -26,17 +50,6 @@ export default function () {    //เรียกใช้ API ใน export def
 
 
 
-
-
-
-// ----------------------------
-// สร้าง HTML report หลังจบ test
-// ----------------------------
-export function handleSummary(data) {
-  return {
-    'report.html': htmlReport(data), // จะสร้างไฟล์ report.html ในโฟลเดอร์เดียวกับ script
-  };
-}
 
 
 

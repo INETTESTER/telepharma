@@ -1,0 +1,16 @@
+{
+    "status": "success",
+    "status_code": "200",
+    "title": "get list register",
+    "message": "ดึงข้อมูลรายการลงทะเบียนสำเร็จ",
+    "result": [
+        {
+            "his_track_id": "TEST202510002",
+            "cid": "3332865001002"
+        },
+        {
+            "his_track_id": "TEST202510001",
+            "cid": "0372408554001"
+        }
+    ]
+}
