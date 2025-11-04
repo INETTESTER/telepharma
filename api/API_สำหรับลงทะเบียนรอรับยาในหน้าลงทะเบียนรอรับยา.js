@@ -60,7 +60,7 @@ export function API_สำหรับลงทะเบียนรอรับ
   const response = http.post(url, JSON.stringify(payload), params);
 
   // log response body ตามคำขอ
-  console.log('Response body:', response.body);
+  //console.log('Response body:', response.body);
 
   // คืนค่า response ตามรูปแบบที่ต้องการ
   return response;
