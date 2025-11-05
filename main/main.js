@@ -25,12 +25,12 @@ export default function () {    //เรียกใช้ API ใน export def
   //response = API_สำหรับแสดงรายการหน้าลงทะเบียนรอรับยา()
   //response = API_สำหรับแสดงรายการหน้ารอรับยา()
   //response = API_สำหรับลงทะเบียนรอรับยาในหน้าลงทะเบียนรอรับยา()
-  response = API_สำหรับการลงทะเบียนรอรับยาเพื่อให้โรงพยาบาลใช้ในการส่งข้อมูลผ่านAPI(cid)
-  //response = API_สำหรับยืนยันข้อมูลที่ได้รับมาจากAPI_vhv_transport_center_register_formDrug(scenario, cid)
+  //response = API_สำหรับการลงทะเบียนรอรับยาเพื่อให้โรงพยาบาลใช้ในการส่งข้อมูลผ่านAPI(cid)
+  //response = API_สำหรับยืนยันข้อมูลที่ได้รับมาจากAPI_vhv_transport_center_register_formDrug(scenario)
   //response = API_สำหรับยืนยันข้อมูลออเดอร์บริการขนส่งrider(scenario)
   //response = API_สำหรับยืนยันข้อมูลออเดอร์บริการขนส่งflash(scenario)
   //response = API_สำหรับยืนยันข้อมูลออเดอร์บริการขนส่งไปรษณีย์ไทย(scenario)
-  //response = API_สำหรับยืนยันข้อมูลออเดอร์บริการขนส่งiship(scenario)
+  response = API_สำหรับยืนยันข้อมูลออเดอร์บริการขนส่งiship(scenario)
 
   //============================== HIS =========================
   //response = API_สำหรับแสดงรายการหน้ารายการจัดส่งยา()

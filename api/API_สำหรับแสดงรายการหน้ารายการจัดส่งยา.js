@@ -25,7 +25,7 @@ export function API_สำหรับแสดงรายการหน้า
 
   const response = http.post(url, payload, params);
 
-  console.log('Response body:', response.body);
+  //console.log('Response body:', response.body);
 
   return response;
 }

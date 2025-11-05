@@ -9,7 +9,7 @@ export function API_สำหรับติดตามสถานะการ
   const response = http.get(url);
 
   // ✅ log response body
-  console.log('Response body:', response.body);
+  //console.log('Response body:', response.body);
 
   // ✅ คืนค่า response ตามมาตรฐานที่คุณใช้
   return response;

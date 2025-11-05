@@ -17,7 +17,7 @@ export function API_สำหรับยืนยันข้อมูลออ
     const register_id = data[scenario.iterationInTest].register_id; // ดึง knowledge_id ตาม iteration
     const patient_id = data[scenario.iterationInTest].patient_id; // ดึง knowledge_id ตาม iteration
 
-    console.log('ใช้ register_id:', register_id);
+    //console.log('ใช้ register_id:', register_id);
 
     const url = 'https://pentest-telepharma-portal.one.th/management/api/v3/transport_orders/thai_post';
 
@@ -51,7 +51,7 @@ export function API_สำหรับยืนยันข้อมูลออ
 
     const response = http.post(url, JSON.stringify(payload), params);
 
-    console.log('Response body:', response.body);
+    //console.log('Response body:', response.body);
 
     return response;
 }

@@ -50,7 +50,7 @@ export function API_สำหรับการลงทะเบียนรอ
   const response = http.post(url, payload, params);
 
   // ✅ log response body
-  console.log('Response body:', response.body);
+  ///console.log('Response body:', response.body);
 
 
 

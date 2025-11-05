@@ -17,7 +17,7 @@ const data = new SharedArray('register_id_rider', function () {
 export function API_สำหรับยืนยันข้อมูลออเดอร์บริการขนส่งrider(scenario) {
   const register_id = data[scenario.iterationInTest].register_id; // ดึง knowledge_id ตาม iteration
   const patient_id = data[scenario.iterationInTest].patient_id; // ดึง knowledge_id ตาม iteration
-  console.log(register_id);
+  //console.log(register_id);
   // ✅ URL จาก curl
   const url = 'https://pentest-telepharma-portal.one.th/management/api/v3/transport_orders';
 
@@ -49,7 +49,7 @@ export function API_สำหรับยืนยันข้อมูลออ
   const response = http.post(url, JSON.stringify(payload), params);
 
   // ✅ แสดงผลลัพธ์ใน console
-  console.log('Response body:', response.body);
+  //console.log('Response body:', response.body);
 
   // ✅ คืนค่า response ตามมาตรฐานที่คุณใช้
   return response;

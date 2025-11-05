@@ -15,7 +15,7 @@ const data = new SharedArray('register_id_flash', function () {
 export function API_สำหรับยืนยันข้อมูลออเดอร์บริการขนส่งflash(scenario) {
   const register_id = data[scenario.iterationInTest].register_id; // ดึง knowledge_id ตาม iteration
   const patient_id = data[scenario.iterationInTest].patient_id; // ดึง knowledge_id ตาม iteration
-  console.log('ใช้ register_id:', register_id);
+  //console.log('ใช้ register_id:', register_id);
 
   // ✅ URL จาก curl
   const url = 'https://pentest-telepharma-portal.one.th/management/api/transport/mobilyst/create-order-flash';
@@ -54,7 +54,7 @@ export function API_สำหรับยืนยันข้อมูลออ
   const response = http.post(url, JSON.stringify(payload), params);
 
   // ✅ log response body
-  console.log('Response body:', response.body);
+  //console.log('Response body:', response.body);
 
   // ✅ คืนค่า response
   return response;

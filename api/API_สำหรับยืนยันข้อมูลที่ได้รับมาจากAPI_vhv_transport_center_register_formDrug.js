@@ -11,11 +11,9 @@ const data = new SharedArray('register_id', function () {
 
 
 // ฟังก์ชันหลักตามรูปแบบที่คุณต้องการ
-export function API_สำหรับยืนยันข้อมูลที่ได้รับมาจากAPI_vhv_transport_center_register_formDrug(scenario,cid) {
+export function API_สำหรับยืนยันข้อมูลที่ได้รับมาจากAPI_vhv_transport_center_register_formDrug(scenario) {
   // ใส่ query params ตาม curl ที่ส่งมา
   const register_id = data[scenario.iterationInTest]; // ดึง knowledge_id ตาม iteration
-  console.log(register_id);
-  const search_value = `${__VU}${__ITER}${cid}`;
   //const url = 'https://pentest-telepharma-portal.one.th/management/api/vhv/v2/update_draft_regis?register_id=${register_id}&lng=104.2241313&lat=17.10949646';
   // register_id มาจากตัวแปรของคุณ
   const url = `https://pentest-telepharma-portal.one.th/management/api/vhv/v2/update_draft_regis?register_id=${register_id}&lng=104.2241313&lat=17.10949646`;
@@ -54,7 +52,7 @@ export function API_สำหรับยืนยันข้อมูลที
   const response = http.post(url, JSON.stringify(payload), params);
 
   // log response body ตามคำขอ
-  console.log('Response body:', response.body);
+  //console.log('Response body:', response.body);
 
   // คืนค่า response ตามรูปแบบ
   return response;
